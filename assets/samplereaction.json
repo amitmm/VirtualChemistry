@@ -1,0 +1,61 @@
+
+{	
+	"Reactants": 
+	{
+
+		"Reactant A":
+		{ 
+			"name" : "Copper Sulfate",
+			"formula" : "CuSO4",
+			"color" : "blue",
+			"density": "low",
+			"smell" : "",
+			"info" : ""
+		},
+
+		"Reactant B":
+		{
+			"name" : "Sodium Hydroxide",
+			"formula" : "NaOH",
+			"color" : "red",
+			"density": "low",
+			"smell" : "",
+			"info" : ""
+		}
+
+	},
+	
+	"Interaction" :
+	{
+
+		"Observations" :
+		{
+			"bubbles": "yes",
+			"smoke": "no",
+			"explosion" : "no",
+			"delay" : 0,
+			"Sedimentation" : 
+			{
+				"result" : "yes",
+				"color" : "yellow",
+				"form" : "lumpy"
+			}
+		},
+
+		"Catalysis" :	
+		{
+			"light": "no",
+			"shake": "yes"
+		},
+			
+		"Product" :
+		{
+			"name" : "Hydrochloric Acid",
+			"formula" : "HCL",
+			"color" : "green",
+			"density": "low",
+			"smell" : "",
+			"info" : ""
+		}
+	}
+}
